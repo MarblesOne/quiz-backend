@@ -1,0 +1,9 @@
+# Secrets (Crucial!)
+
+
+# Dependencies
+node_modules/
+.wrangler/
+
+# Build outputs
+dist/

@@ -1,0 +1,7 @@
+{
+  "name": "quiz-backend", // Must be lowercase with dashes
+  "main": "src/index.ts",
+  "compatibility_date": "2026-05-13", // Must be today's date
+"compatibility_flags": [ "nodejs_compat" ]
+  
+}
