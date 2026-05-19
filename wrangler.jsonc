@@ -1,7 +1,20 @@
 {
-  "name": "quiz-backend", // Must be lowercase with dashes
-  "main": "src/index.ts",
-  "compatibility_date": "2026-05-13", // Must be today's date
-"compatibility_flags": [ "nodejs_compat" ]
-  
+	"$schema": "node_modules/wrangler/config-schema.json",
+	"name": "quiz-backend",
+	"main": "src/index.ts",
+	"compatibility_date": "2024-05-19",
+	"compatibility_flags": [
+		"nodejs_compat"
+	],
+	"vars": {
+		"ALLOWED_ORIGIN": "https://forms.marbles.one"
+	}
+	/**
+	 * SECURE SECRETS:
+	 * The following variables MUST NOT be added here. 
+	 * Use 'npx wrangler secret put <NAME>' to upload them securely:
+	 * - GOOGLE_CLIENT_EMAIL
+	 * - GOOGLE_PRIVATE_KEY
+	 * - GOOGLE_SHEET_ID
+	 */
 }

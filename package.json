@@ -17,6 +17,8 @@
 	},
 	"dependencies": {
 		"google-auth-library": "^10.6.2",
-		"google-spreadsheet": "^5.2.0"
+		"google-spreadsheet": "^5.2.0",
+		"jose": "^6.2.3",
+		"zod": "^4.4.3"
 	}
 }
